@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "notliad.audio",
+  "name": "Audio (perfis)",
+  "version": "1.0.0",
+  "author": "Omarchy",
+  "description": "Volume slider, output and input port picker, per-app mixer",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.audio"
+  },
+  "barWidget": {
+    "displayName": "Audio (perfis)",
+    "description": "Volume slider, output and input port picker, per-app mixer",
+    "category": "Audio",
+    "allowMultiple": false
+  }
+}

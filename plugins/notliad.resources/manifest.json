@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "notliad.resources",
+  "name": "PC Resources",
+  "version": "1.0.0",
+  "author": "notliad",
+  "description": "CPU and RAM usage in the status bar",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "PC Resources",
+    "description": "CPU and RAM usage in the status bar",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
